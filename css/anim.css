@@ -1,0 +1,183 @@
+#islamic2{width:90px;
+height: 90px;
+border: 8px solid green;
+}
+
+#islamic{width:70px;
+height: 70px;
+border: 8px solid green;
+ transform: rotate(50deg);
+
+
+}
+
+#black{width:50px;
+height: 100px;
+background-color: black;
+margin-top:150px;
+margin-bottom: 50px;}
+
+#green{
+height: 30px;
+width: 40px;
+border-radius: 50px;
+background-color: green;
+margin-top: 2px;
+animation: green 6s infinite
+}
+#yellow{height: 30px;
+width: 40px;
+border-radius: 50px;
+background-color:yellow;
+margin-top: 2px;
+animation: yellow 6s infinite
+}
+#red{height: 30px;
+width: 40px;
+border-radius: 50px;
+	background-color: red;
+margin-top: 2px;
+animation: red 6s infinite}
+
+
+
+
+@keyframes black {
+	
+	to {background-color: black;}
+}
+@keyframes green {
+	
+	0%{background:#030}
+	5%{background:#0a0}
+	45%{background:#0a0}
+	50%{background:#030}
+	100%{background:#030}
+}
+@keyframes yellow {
+	
+	0%{background:#430}
+	45%{background:#430}
+	55%{background:#fc0}
+	60%{background:#430}
+	100%{background:#430}
+}
+@keyframes red {
+	
+	0%{background:#300}
+	55%{background:#300}
+	60%{background:#f00}
+	95%{background:#f00}
+	100%{background:#300}
+}
+
+.cars{}
+.fas{font-size: 100px;
+margin-top:10px;
+margin-left: 100px;
+
+}
+
+.car1{
+	position: relative;
+	animation: my1move 10s ;
+	}
+
+	.car2{ position: relative;
+	animation: my1move 8s ;
+
+	 }
+
+	 .car3{ position: relative;
+	animation: my1move 12s ;
+	 }
+
+
+@keyframes my1move {
+ from {left: 0px;}
+  to {left: 90%;}
+}
+  @keyframes my2move {
+  from{left:500px;}
+  to{left:1500px;}
+}
+  
+.loding{border: 1px solid black;
+width:300px;
+height: 50px;}
+
+.par{width:50px;
+height: 50px;
+background-color: black;
+animation: loadmove1 11s ;
+
+}
+
+
+@keyframes loadmove1 {
+ from{width:50px;}
+  to {width:300px;}
+}
+@keyframes heardmove {
+ from{color:red;font-size: 20px;}
+  to {color:red;font-size: 100px;margin: 0;}
+}
+.heard .fas{font-size:20px;
+	margin: 50px;
+	color:red;
+	animation: heardmove 2s infinite ;}
+
+	.balls{width:200px;
+		height: 200px;
+		border: 2px solid green;
+
+
+		}
+		.world{width:200px;
+		height: 200px;
+		border: 2px solid green;
+		margin-top: 50px;
+}
+.world h3{margin-top: 80px;
+color: gray;
+font-size:20px;
+animation: onemove 2s infinite ;
+animation: towmove 3s infinite ;}
+		
+		 .greenb{ animation: ballmove 2s infinite ; }
+		.blueb{ animation: ballmove 5s infinite ; }
+
+		 .clock{width:200px;
+		height: 200px;
+		border: 2px solid green;
+		margin-top: 50px;
+		border-radius:50%;
+}
+.hr{width:60px;
+height: 5px;
+border: 2px solid green;
+margin-top: 100px;
+margin-left: 10px;
+animation: hrmove 3s infinite ;
+}
+
+@keyframes hrmove {
+  
+  to{transform: rotateZ(360deg);}
+}	
+
+
+
+		@keyframes ballmove {
+  from{margin-top:150px;}
+  to{margin-top:5px;}
+}
+@keyframes onemove {
+  from{font-size:20px;}
+  to{font-size:40px;}
+}
+@keyframes towmove {
+  from{font-size:40px;}
+  to{font-size:5px;}
+}
+
